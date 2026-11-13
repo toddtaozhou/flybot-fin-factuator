@@ -1,0 +1,2 @@
+exec(open(r"/Users/toddzhou/Project/FlyBot/flybot-test/fin-actuator/scripts/create_cw_ccw_coil_pair.py", encoding="utf-8").read())
+exec(open(r"/Users/toddzhou/Project/FlyBot/flybot-test/fin-actuator/scripts/create_cw_ccw_coil_pair_dense.py", encoding="utf-8").read())

@@ -1,0 +1,7 @@
+### Footprint positions - created on 2026-10-29T16:15:29-0700 ###
+### Printed by KiCad version 9.0.4
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+L1        COIL_D    COIL_5X6            93.0000  -100.0000  180.0000  bottom
+## End

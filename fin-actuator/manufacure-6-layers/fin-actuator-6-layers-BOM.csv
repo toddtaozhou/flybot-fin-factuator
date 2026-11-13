@@ -1,0 +1,4 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"C1","1","1uF","","","","Capacitor_SMD:C_0402_1005Metric","~"
+"C2","1","0.1uF","","","","Capacitor_SMD:C_0402_1005Metric","~"
+"U1","1","TMAG3001A2YBGR","","","","TMAG3001A2YBGR:DSBGA6_YBG_TEX-L","https://www.ti.com/lit/gpn/tmag3001"

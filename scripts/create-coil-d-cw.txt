@@ -1,0 +1,245 @@
+exec("""
+import pcbnew
+import math
+
+board = pcbnew.GetBoard()
+
+# ============================================================
+# NET
+# ============================================================
+
+NET_NAME = "/Coil D/COIL+"
+coil_net = board.FindNet(NET_NAME)
+
+if coil_net is None:
+    raise RuntimeError(
+        'Net "%s" was not found on this PCB. '
+        'Make sure the schematic/net already exists and update PCB from schematic.'
+        % NET_NAME
+    )
+
+# ============================================================
+# D COIL - 4 LAYER CW STACK
+# ============================================================
+
+TRACE = 0.16
+GAP = 0.10
+PITCH = TRACE + GAP
+
+R_OUT = 2.12
+R_IN_6 = 0.56
+R_IN_55 = 0.69
+
+STEP_DEG = 2.0
+
+# ============================================================
+# Temporary positions for easy grouping
+# ============================================================
+
+L1_CX = 90.0
+L1_CY = 100.0
+
+L2_CX = 100.0
+L2_CY = 100.0
+
+L3_CX = 110.0
+L3_CY = 100.0
+
+L4_CX = 120.0
+L4_CY = 100.0
+
+# ============================================================
+# Center cross
+# ============================================================
+
+CROSS_SIZE = 0.80
+CROSS_WIDTH = 0.15
+
+# ============================================================
+# Helper
+# ============================================================
+
+def pt(x_mm, y_mm):
+    return pcbnew.VECTOR2I(
+        pcbnew.FromMM(x_mm),
+        pcbnew.FromMM(y_mm)
+    )
+
+# ============================================================
+# CW spiral generator
+# ============================================================
+
+def make_cw_spiral(
+    cx,
+    cy,
+    layer,
+    r_start,
+    turns,
+    start_angle_deg,
+    outside_to_inside
+):
+
+    points = []
+
+    steps = int(turns * 360.0 / STEP_DEG)
+    start_angle = math.radians(start_angle_deg)
+
+    for i in range(steps + 1):
+
+        theta = math.radians(i * STEP_DEG)
+
+        if outside_to_inside:
+            r = r_start - PITCH * theta / (2.0 * math.pi)
+        else:
+            r = r_start + PITCH * theta / (2.0 * math.pi)
+
+        # CW = decreasing angle
+        angle = start_angle - theta
+
+        x = cx + r * math.cos(angle)
+        y = cy - r * math.sin(angle)
+
+        points.append(pt(x, y))
+
+    for i in range(len(points) - 1):
+
+        track = pcbnew.PCB_TRACK(board)
+
+        track.SetStart(points[i])
+        track.SetEnd(points[i + 1])
+
+        track.SetWidth(
+            pcbnew.FromMM(TRACE)
+        )
+
+        track.SetLayer(layer)
+
+        # Assign coil net
+        track.SetNet(coil_net)
+
+        board.Add(track)
+
+# ============================================================
+# Silkscreen center cross
+# ============================================================
+
+def add_cross(cx, cy):
+
+    half = CROSS_SIZE / 2.0
+
+    hline = pcbnew.PCB_SHAPE(board)
+    hline.SetShape(pcbnew.SHAPE_T_SEGMENT)
+    hline.SetStart(pt(cx - half, cy))
+    hline.SetEnd(pt(cx + half, cy))
+    hline.SetWidth(pcbnew.FromMM(CROSS_WIDTH))
+    hline.SetLayer(pcbnew.F_SilkS)
+    board.Add(hline)
+
+    vline = pcbnew.PCB_SHAPE(board)
+    vline.SetShape(pcbnew.SHAPE_T_SEGMENT)
+    vline.SetStart(pt(cx, cy - half))
+    vline.SetEnd(pt(cx, cy + half))
+    vline.SetWidth(pcbnew.FromMM(CROSS_WIDTH))
+    vline.SetLayer(pcbnew.F_SilkS)
+    board.Add(vline)
+
+# ============================================================
+# L1 - F.Cu
+# CW OUTSIDE -> INSIDE
+# bottom R2.12 -> bottom R0.56
+# ============================================================
+
+make_cw_spiral(
+    L1_CX,
+    L1_CY,
+    pcbnew.F_Cu,
+    R_OUT,
+    6.0,
+    -90.0,
+    True
+)
+
+add_cross(L1_CX, L1_CY)
+
+# ============================================================
+# L2 - In1.Cu
+# CW INSIDE -> OUTSIDE
+# bottom R0.56 -> bottom R2.12
+# ============================================================
+
+make_cw_spiral(
+    L2_CX,
+    L2_CY,
+    pcbnew.In1_Cu,
+    R_IN_6,
+    6.0,
+    -90.0,
+    False
+)
+
+add_cross(L2_CX, L2_CY)
+
+# ============================================================
+# L3 - In2.Cu
+# CW OUTSIDE -> INSIDE
+# bottom R2.12 -> top R0.69
+# ============================================================
+
+make_cw_spiral(
+    L3_CX,
+    L3_CY,
+    pcbnew.In2_Cu,
+    R_OUT,
+    5.5,
+    -90.0,
+    True
+)
+
+add_cross(L3_CX, L3_CY)
+
+# ============================================================
+# L4 - In3.Cu
+# CW INSIDE -> OUTSIDE
+# top R0.69 -> bottom R2.12
+# ============================================================
+
+make_cw_spiral(
+    L4_CX,
+    L4_CY,
+    pcbnew.In3_Cu,
+    R_IN_55,
+    5.5,
+    90.0,
+    False
+)
+
+add_cross(L4_CX, L4_CY)
+
+# ============================================================
+# Refresh
+# ============================================================
+
+pcbnew.Refresh()
+
+# ============================================================
+# Report
+# ============================================================
+
+print("")
+print("========================================")
+print("D COIL - 4 LAYER CW SET GENERATED")
+print("========================================")
+print("Net          : %s" % NET_NAME)
+print("Trace        : %.2f mm" % TRACE)
+print("Gap          : %.2f mm" % GAP)
+print("Pitch        : %.2f mm" % PITCH)
+print("")
+print("L1 F.Cu   : CW OUT -> IN, 6 turns")
+print("L2 In1.Cu : CW IN  -> OUT, 6 turns")
+print("L3 In2.Cu : CW OUT -> IN, 5.5 turns")
+print("L4 In3.Cu : CW IN  -> OUT, 5.5 turns")
+print("")
+print("All copper tracks assigned to:")
+print("  %s" % NET_NAME)
+print("========================================")
+""")

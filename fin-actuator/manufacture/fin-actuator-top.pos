@@ -1,0 +1,14 @@
+### Footprint positions - created on 2026-10-29T16:15:29-0700 ###
+### Printed by KiCad version 9.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                       PosX       PosY       Rot  Side
+C1        1uF             C_0402_1005Metric          93.0000   -96.0000    0.0000  top
+C2        0.1uF           C_0402_1005Metric          93.0000   -97.0000    0.0000  top
+J1        Conn_01x06_Pin  coil_connector_x6_small    93.0000   -92.5000    0.0000  top
+R1        0R              R_0201_0603Metric          90.6000   -95.5000  -90.0000  top
+R2        0R              R_0201_0603Metric          91.3000   -95.5000  -90.0000  top
+R3        0R              R_0201_0603Metric          94.7000   -95.5000  -90.0000  top
+R4        0R              R_0201_0603Metric          95.4000   -95.5000  -90.0000  top
+U1        TMAG3001A2YBGR  DSBGA6_YBG_TEX-L           93.0000   -98.5000    0.0000  top
+## End
