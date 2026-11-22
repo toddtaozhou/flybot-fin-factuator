@@ -1,2 +1,3 @@
 exec(open(r"/Users/toddzhou/Project/FlyBot/flybot-test/fin-actuator/scripts/create_cw_ccw_coil_pair.py", encoding="utf-8").read())
 exec(open(r"/Users/toddzhou/Project/FlyBot/flybot-test/fin-actuator/scripts/create_cw_ccw_coil_pair_dense.py", encoding="utf-8").read())
+exec(open(r"/Users/toddzhou/Project/FlyBot/flybot-fin-factuator/scripts/pcbway_advanced_6layer_coil_optimized/pcbway_drv8213_6layer_2oz_32turn.py", encoding="utf-8").read())

@@ -1,0 +1,2144 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/toddzhou/Project/FlyBot/flybot-fin-factuator/fin-actuator/fin-actuator.kicad_sch")
+		(date "2026-11-15T16:51:16")
+		(tool "Eeschema 10.0.8")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "fin-actuator.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "4.7uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d2a51f27-cb25-4bab-8d5d-e547b6e5f0a2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "35ea45ce-b721-43af-a169-59e1158a82a3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4d8ba757-2be9-4057-9b03-4199ff55b66d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "98f8f3bd-af47-4761-bb8f-27cc14bd2083")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2bc92a87-ced0-4daf-b4f5-1a1640d790a8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6af281b2-d8e9-4853-b165-0571c690b377")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "Fin Shaft")
+			(footprint "flybot:FIN_MOUNT_HOLE")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "flybot:FIN_MOUNT_HOLE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "320de760-5dff-4dff-8ecb-57cee3815d2f")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "MountingHole")
+			(footprint "flybot:MOUNTING_HOLE")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "flybot:MOUNTING_HOLE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "eb50ec75-81be-4fdc-bae2-a8d2ccfee195")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "MountingHole")
+			(footprint "flybot:MOUNTING_HOLE")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "flybot:MOUNTING_HOLE")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "44653be9-5475-4413-8dcd-b73938d68cf9")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "Conn_01x10_Pin")
+			(description "Generic connector, single row, 01x10, script generated")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x10, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x10_Pin")
+				(description "Generic connector, single row, 01x10, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "830474bb-205a-4bf0-8fa5-2af8eb41ccf4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "COIL_D")
+			(footprint "flybot:COIL_6X6")
+			(description "Inductor")
+			(fields
+				(field
+					(name "Footprint") "flybot:COIL_6X6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(libsource
+				(lib "Device")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "639b655b-8961-49da-aa4a-f8a839696cfd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "0R")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "efbf8e05-241e-4491-a0b1-3899c25f255c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "0R")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d6bdd7a9-3e57-44bd-b1aa-b531e8327021")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "0R")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6e94bed4-af17-4320-af89-4831ac8c185b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "0R")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c0938bcd-5217-430e-a9d9-8cf4bffa39f0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "47K")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "023c786d-fba5-4b2f-b497-8021cb64eef6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "47K")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c29ad81f-0fa5-4c7b-974b-3a5663ff2400")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "47K")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e9ded618-e242-4229-9d97-c8320cf09e7f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "47K")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2e7f2cec-6f9b-4144-a9c7-9b95cf58d9ca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "47K")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Resistor, US symbol")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_US")
+				(description "Resistor, US symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "13469d0c-f19d-4471-a85d-5ca72a879689")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "TMAG3001A2YBGR")
+			(footprint "TMAG3001A2YBGR:DSBGA6_YBG_TEX-L")
+			(datasheet "https://www.ti.com/lit/gpn/tmag3001")
+			(fields
+				(field
+					(name "Footprint") "TMAG3001A2YBGR:DSBGA6_YBG_TEX-L")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/gpn/tmag3001")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "TMAG3001A2YBGR")
+				(part "TMAG3001A2YBGR")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "TMAG3001A2YBGR")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "DSBGA6_YBG_TEX DSBGA6_YBG_TEX-M DSBGA6_YBG_TEX-L")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "af0dba46-403d-43d8-818c-0f1ee14747fb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "A1")
+						)
+						(pin
+							(num "A2")
+						)
+						(pin
+							(num "B1")
+						)
+						(pin
+							(num "C2")
+						)
+						(pin
+							(num "C1")
+						)
+						(pin
+							(num "B2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "VL53L7CXV0GC/1")
+			(footprint "VL53L7CXV0GC_1:LGA16_OPTICAL-LINER_STM")
+			(datasheet "https://www.st.com/resource/en/datasheet/vl53l7cx.pdf")
+			(fields
+				(field
+					(name "Footprint") "VL53L7CXV0GC_1:LGA16_OPTICAL-LINER_STM")
+				(field
+					(name "Datasheet") "https://www.st.com/resource/en/datasheet/vl53l7cx.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "VL53L7CXV0GC_1")
+				(part "VL53L7CXV0GC_1")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "fin-actuator")
+			)
+			(property
+				(name "Sheetfile")
+				(value "fin-actuator.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "VL53L7CXV0GC/1")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LGA16_OPTICAL-LINER_STM")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0fd3066b-ccc8-44bb-b516-5887fca86f75")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "A1")
+						)
+						(pin
+							(num "A2")
+						)
+						(pin
+							(num "A3")
+						)
+						(pin
+							(num "A4")
+						)
+						(pin
+							(num "A5")
+						)
+						(pin
+							(num "A6")
+						)
+						(pin
+							(num "A7")
+						)
+						(pin
+							(num "B1")
+						)
+						(pin
+							(num "C7")
+						)
+						(pin
+							(num "C6")
+						)
+						(pin
+							(num "C5")
+						)
+						(pin
+							(num "C4")
+						)
+						(pin
+							(num "C3")
+						)
+						(pin
+							(num "C2")
+						)
+						(pin
+							(num "C1")
+						)
+						(pin
+							(num "B7")
+						)
+						(pin
+							(num "B4")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x10_Pin")
+			(description "Generic connector, single row, 01x10, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x10_Pin")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x10, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "L")
+			(description "Inductor")
+			(footprints
+				(fp "Choke_*")
+				(fp "*Coil*")
+				(fp "Inductor_*")
+				(fp "L_*")
+			)
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "L")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R_US")
+			(description "Resistor, US symbol")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R_US")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor, US symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole")
+			(description "Mounting Hole without connection")
+			(footprints
+				(fp "MountingHole*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+		)
+		(libpart
+			(lib "TMAG3001A2YBGR")
+			(part "TMAG3001A2YBGR")
+			(docs "https://www.ti.com/lit/gpn/tmag3001")
+			(footprints
+				(fp "DSBGA6_YBG_TEX")
+				(fp "DSBGA6_YBG_TEX-M")
+				(fp "DSBGA6_YBG_TEX-L")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TMAG3001A2YBGR")
+				(field
+					(name "Footprint") "DSBGA6_YBG_TEX")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/gpn/tmag3001")
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "A1")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "A2")
+					(name "ADDR")
+					(type "input")
+				)
+				(pin
+					(num "B1")
+					(name "*INT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B2")
+					(name "GND")
+					(type "power_out")
+				)
+				(pin
+					(num "C1")
+					(name "SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "C2")
+					(name "SCL")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "VL53L7CXV0GC_1")
+			(part "VL53L7CXV0GC_1")
+			(docs "https://www.st.com/resource/en/datasheet/vl53l7cx.pdf")
+			(footprints
+				(fp "LGA16_OPTICAL-LINER_STM")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "VL53L7CXV0GC/1")
+				(field
+					(name "Footprint") "LGA16_OPTICAL-LINER_STM")
+				(field
+					(name "Datasheet") "https://www.st.com/resource/en/datasheet/vl53l7cx.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "A1")
+					(name "I2C_RST")
+					(type "input")
+				)
+				(pin
+					(num "A2")
+					(name "RSVD4")
+					(type "power_out")
+				)
+				(pin
+					(num "A3")
+					(name "INT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A4")
+					(name "IOVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "A5")
+					(name "LPn")
+					(type "input")
+				)
+				(pin
+					(num "A6")
+					(name "RSVD1")
+					(type "power_out")
+				)
+				(pin
+					(num "A7")
+					(name "RSVD2")
+					(type "power_out")
+				)
+				(pin
+					(num "B1")
+					(name "AVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "B4")
+					(name "THERMALPAD")
+					(type "power_out")
+				)
+				(pin
+					(num "B7")
+					(name "AVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "C1")
+					(name "GND")
+					(type "power_out")
+				)
+				(pin
+					(num "C2")
+					(name "RSVD6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "C3")
+					(name "SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "C4")
+					(name "SCL")
+					(type "input")
+				)
+				(pin
+					(num "C5")
+					(name "RSVD5")
+					(type "no_connect")
+				)
+				(pin
+					(num "C6")
+					(name "RSVD3")
+					(type "power_out")
+				)
+				(pin
+					(num "C7")
+					(name "GND")
+					(type "power_out")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Mechanical")
+			(uri "${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym")
+		)
+		(library
+			(logical "TMAG3001A2YBGR")
+			(uri "${KIPRJMOD}/lib/TMAG3001A2YBGR/KiCADv6/2026-10-28_05-08-25.kicad_sym")
+		)
+		(library
+			(logical "VL53L7CXV0GC_1")
+			(uri "${KIPRJMOD}/lib/VL53L7CXV0GC_1/KiCADv6")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/COIL+")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/COIL-")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/HALL_INT")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "B1")
+				(pinfunction "*INT_B1")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "4")
+			(name "/SCL")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "C2")
+				(pinfunction "SCL_C2")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "C4")
+				(pinfunction "SCL_C4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "5")
+			(name "/SDA")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "C1")
+				(pinfunction "SDA_C1")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "C3")
+				(pinfunction "SDA_C3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "6")
+			(name "/TOF_INT")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "A3")
+				(pinfunction "INT_A3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "7")
+			(name "/TOF_LP_N")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "A5")
+				(pinfunction "LPn_A5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "8")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "B2")
+				(pinfunction "GND_B2")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U2")
+				(pin "A2")
+				(pinfunction "RSVD4_A2")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U2")
+				(pin "A6")
+				(pinfunction "RSVD1_A6")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U2")
+				(pin "A7")
+				(pinfunction "RSVD2_A7")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U2")
+				(pin "B4")
+				(pinfunction "THERMALPAD_B4")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U2")
+				(pin "C1")
+				(pinfunction "GND_C1")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U2")
+				(pin "C6")
+				(pinfunction "RSVD3_C6")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U2")
+				(pin "C7")
+				(pinfunction "GND_C7")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "9")
+			(name "Net-(U1-ADDR)")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "A2")
+				(pinfunction "ADDR_A2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "10")
+			(name "Net-(U2-I2C_RST)")
+			(class "Default")
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "A1")
+				(pinfunction "I2C_RST_A1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "11")
+			(name "Net-(U2-RSVD6)")
+			(class "Default")
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "C2")
+				(pinfunction "RSVD6_C2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
+			(name "VCC_3V3")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "A1")
+				(pinfunction "VCC_A1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "A4")
+				(pinfunction "IOVDD_A4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "B1")
+				(pinfunction "AVDD_B1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "B7")
+				(pinfunction "AVDD_B7")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "13")
+			(name "unconnected-(U2-RSVD5-PadC5)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "C5")
+				(pinfunction "RSVD5_C5")
+				(pintype "no_connect")
+			)
+		)
+	)
+)

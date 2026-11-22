@@ -1,13 +1,13 @@
 (footprint "FIN_MOUNT_HOLE"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at -1 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "020f3d2a-1dff-4c1b-ba6f-898300a773a4")
+		(uuid "6174007b-563c-4cfd-9c14-0b1d84228deb")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "7be0a1eb-5aca-4368-a289-ac927af0efca")
+		(uuid "3380e0fc-1cdc-47b2-96e6-39dd7579cbba")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c70b1930-ca42-4d12-9483-1a91ac837662")
+		(uuid "fc7ac0ce-9a22-41b8-af9c-17b2f6b33d63")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8e0d5e94-6cf0-4f99-9a9e-79af1d33bb6b")
+		(uuid "134da358-39eb-4ced-b8d6-c6e9b412a8f3")
 		(effects
 			(font
 				(size 1 1)
@@ -54,11 +54,12 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6582731a-a406-4749-a4ba-5f3a085382fe")
+		(uuid "84adcf28-8f88-4a7f-a52a-0e427f190307")
 		(effects
 			(font
 				(size 1 1)
@@ -68,11 +69,11 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 3.2 3.2)
-		(drill 1.8)
+		(size 2.5 2.5)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ff888cea-acb7-4a1f-a5aa-dc472a383912")
+		(uuid "6edf0e72-db35-45d0-9fe3-5dfe814d43bd")
 	)
 	(embedded_fonts no)
 )
