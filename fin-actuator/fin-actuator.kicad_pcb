@@ -137,6 +137,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_02000000)
@@ -3404,7 +3405,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2.5 2.5)
-			(drill 1.5)
+			(drill 1.55)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "68374cd3-ff65-44ce-8950-a014f55639da")
